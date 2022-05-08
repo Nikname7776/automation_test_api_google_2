@@ -1,0 +1,78 @@
+
+-----
+Test: test/test.py::Test_create_place::test_create_new_place (call)
+Time: 2022-05-07 12:14:56.943177
+Request method: GET
+Request URL: https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+
+Response code: 200
+Response text: {"status":"OK","place_id":"d2bdadc01c5d1dd5be9da4b7a85dfbee","scope":"APP","reference":"aa9654c0a7dbeedf2f6b9655c47de5f9aa9654c0a7dbeedf2f6b9655c47de5f9","id":"aa9654c0a7dbeedf2f6b9655c47de5f9"}
+Response headers: {'Date': 'Sat, 07 May 2022 09:18:29 GMT', 'Server': 'Apache/2.4.41 (Ubuntu)', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST', 'Access-Control-Max-Age': '3600', 'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With', 'Content-Length': '194', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'application/json;charset=UTF-8'}
+Response cookies: {}
+
+-----
+
+-----
+Test: test/test.py::Test_create_place::test_create_new_place (call)
+Time: 2022-05-07 12:14:58.092633
+Request method: GET
+Request URL: https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=d2bdadc01c5d1dd5be9da4b7a85dfbee
+
+Response code: 200
+Response text: {"location":{"latitude":"-38.383494","longitude":"33.427362"},"accuracy":"50","name":"Frontline house","phone_number":"(+91) 983 893 3937","address":"29, side layout, cohen 09","types":"shoe park,shop","website":"http:\/\/google.com","language":"French-IN"}
+Response headers: {'Date': 'Sat, 07 May 2022 09:18:30 GMT', 'Server': 'Apache/2.4.41 (Ubuntu)', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST', 'Access-Control-Max-Age': '3600', 'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With', 'Content-Length': '257', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'application/json;charset=UTF-8'}
+Response cookies: {}
+
+-----
+
+-----
+Test: test/test.py::Test_create_place::test_create_new_place (call)
+Time: 2022-05-07 12:14:59.002814
+Request method: PUT
+Request URL: https://rahulshettyacademy.com/maps/api/place/update/json?key=qaclick123
+
+Response code: 200
+Response text: {"msg":"Address successfully updated"}
+Response headers: {'Date': 'Sat, 07 May 2022 09:18:31 GMT', 'Server': 'Apache/2.4.41 (Ubuntu)', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST', 'Access-Control-Max-Age': '3600', 'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With', 'Content-Length': '38', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'application/json;charset=UTF-8'}
+Response cookies: {}
+
+-----
+
+-----
+Test: test/test.py::Test_create_place::test_create_new_place (call)
+Time: 2022-05-07 12:14:59.966482
+Request method: GET
+Request URL: https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=d2bdadc01c5d1dd5be9da4b7a85dfbee
+
+Response code: 200
+Response text: {"location":{"latitude":"-38.383494","longitude":"33.427362"},"accuracy":"50","name":"Frontline house","phone_number":"(+91) 983 893 3937","address":"100 Lenina street, RU","types":"shoe park,shop","website":"http:\/\/google.com","language":"French-IN"}
+Response headers: {'Date': 'Sat, 07 May 2022 09:18:32 GMT', 'Server': 'Apache/2.4.41 (Ubuntu)', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST', 'Access-Control-Max-Age': '3600', 'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With', 'Content-Length': '253', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'application/json;charset=UTF-8'}
+Response cookies: {}
+
+-----
+
+-----
+Test: test/test.py::Test_create_place::test_create_new_place (call)
+Time: 2022-05-07 12:15:00.726472
+Request method: DELETE
+Request URL: https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+
+Response code: 200
+Response text: {"status":"OK"}
+Response headers: {'Date': 'Sat, 07 May 2022 09:18:33 GMT', 'Server': 'Apache/2.4.41 (Ubuntu)', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST', 'Access-Control-Max-Age': '3600', 'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With', 'Content-Length': '15', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'application/json;charset=UTF-8'}
+Response cookies: {}
+
+-----
+
+-----
+Test: test/test.py::Test_create_place::test_create_new_place (call)
+Time: 2022-05-07 12:15:01.594996
+Request method: GET
+Request URL: https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=d2bdadc01c5d1dd5be9da4b7a85dfbee
+
+Response code: 404
+Response text: {"msg":"Get operation failed, looks like place_id  doesn't exists"}
+Response headers: {'Date': 'Sat, 07 May 2022 09:18:33 GMT', 'Server': 'Apache/2.4.41 (Ubuntu)', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST', 'Access-Control-Max-Age': '3600', 'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With', 'Content-Length': '67', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'application/json;charset=UTF-8'}
+Response cookies: {}
+
+-----

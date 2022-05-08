@@ -1,0 +1,38 @@
+Вызов теста метода POST
+https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+{"status":"OK","place_id":"fc2c7aa1a76bdfdc3990d90987436ceb","scope":"APP","reference":"3dca15932ad90dd4e87724e7d13d01733dca15932ad90dd4e87724e7d13d0173","id":"3dca15932ad90dd4e87724e7d13d0173"}
+Проверка успешна, статус код = 200
+['status', 'place_id', 'scope', 'reference', 'id']
+Все поля присутствуют
+Поле "status" соответствует значению!
+Вызов теста метода GET POST
+https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=fc2c7aa1a76bdfdc3990d90987436ceb
+{"location":{"latitude":"-38.383494","longitude":"33.427362"},"accuracy":"50","name":"Frontline house","phone_number":"(+91) 983 893 3937","address":"29, side layout, cohen 09","types":"shoe park,shop","website":"http:\/\/google.com","language":"French-IN"}
+Проверка успешна, статус код = 200
+Все поля присутствуют
+Поле "address" соответствует значению!
+Вызов теста метода PUT
+https://rahulshettyacademy.com/maps/api/place/update/json?key=qaclick123
+{"msg":"Address successfully updated"}
+Проверка успешна, статус код = 200
+Все поля присутствуют
+Поле "msg" соответствует значению!
+Вызов теста проверки метода GET PUT
+https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=fc2c7aa1a76bdfdc3990d90987436ceb
+{"location":{"latitude":"-38.383494","longitude":"33.427362"},"accuracy":"50","name":"Frontline house","phone_number":"(+91) 983 893 3937","address":"100 Lenina street, RU","types":"shoe park,shop","website":"http:\/\/google.com","language":"French-IN"}
+Проверка успешна, статус код = 200
+Все поля присутствуют
+Поле "address" соответствует значению!
+Вызов теста метода DELETE
+https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+{"status":"OK"}
+Проверка успешна, статус код = 200
+Все поля присутствуют
+Поле "status" соответствует значению!
+Вызов теста проверки метода GET DELETE
+https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=fc2c7aa1a76bdfdc3990d90987436ceb
+{"msg":"Get operation failed, looks like place_id  doesn't exists"}
+Проверка успешна, статус код = 404
+Все поля присутствуют
+Слово "failed" присутствует!
+Тестирование создания, изменения и удаления новой локации прошло успешно
